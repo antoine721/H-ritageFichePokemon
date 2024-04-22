@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfb91c25665dcb49984aac3c00be42f, type: 3}
+  m_Name: AttackDatabase
+  m_EditorClassIdentifier: 
+  datas:
+  - label: Armure
+    caption: "Augmente la D\xE9fense du lanceur d'un niveau"
+    category: 2
+    types: 1
+    degat: 0
+    precision: 0
+  - label: Fouet Lianes
+    caption: "Sans effet suppl\xE9mentaires"
+    category: 3
+    types: 12
+    degat: 35
+    precision: 100
+  - label: Destruction
+    caption: Le lanceur tombe KO
+    category: 0
+    types: 1
+    degat: 130
+    precision: 100
+  - label: Mini-Queue
+    caption: Baisse la defense
+    category: 2
+    types: 1
+    degat: 0
+    precision: 100
+  - label: Trempette
+    caption: Sans effet
+    category: 2
+    types: 1
+    degat: 0
+    precision: 0

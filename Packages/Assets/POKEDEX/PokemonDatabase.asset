@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3d6e654b6f54e4da4340a379144315, type: 3}
+  m_Name: PokemonDatabase
+  m_EditorClassIdentifier: 
+  datas:
+  - label: Bulbizarre
+    caption: "Ce Pok\xE9mon est capable de transformer la lumi\xE8re du soleil en
+      \xE9nergie. Il est donc encore plus fort en \xE9t\xE9."
+    icon: {fileID: 21300000, guid: 0beaba7d556c8e847bb97c05a960cd6a, type: 3}
+    info:
+      idNumber: 1
+      category: Graine
+      size: 2
+      weight: 100
+      types: 0c00000004000000
+    statsBase:
+      pv: 3
+      atk: 3
+      def: 3
+      atkSpe: 4
+      defSpe: 4
+      speed: 3
+    attacks:
+    - label: Fouet Lianes
+      level: 5
+    - label: Armure
+      level: 5
+    - label: Trempette
+      level: 5
+    - label: Destruction
+      level: 10
+    - label: Mini-Queue
+      level: 5
+  - label: Herbizarre
+    caption: "Plus il s\u2019expose au soleil, plus il emmagasine d\u2019\xE9nergie,
+      ce qui permet au bourgeon sur son dos de se d\xE9velopper."
+    icon: {fileID: 21300000, guid: cb3a3d58d0f3c5d4fb36585b5c306a3e, type: 3}
+    info:
+      idNumber: 2
+      category: Graine
+      size: 1
+      weight: 13
+      types: 0c00000004000000
+    statsBase:
+      pv: 4
+      atk: 4
+      def: 4
+      atkSpe: 5
+      defSpe: 5
+      speed: 4
+    attacks:
+    - label: Fouet Lianes
+      level: 5
+    - label: Armure
+      level: 5
+    - label: Trempette
+      level: 5
+    - label: Destruction
+      level: 10
+    - label: Mini-Queue
+      level: 5
+  - label: Florizarre
+    caption: "Ce Pok\xE9mon est capable de transformer la lumi\xE8re du soleil en
+      \xE9nergie. Il est donc encore plus fort en \xE9t\xE9."
+    icon: {fileID: 21300000, guid: 70ec61e2317512745a02de64a9bc4772, type: 3}
+    info:
+      idNumber: 3
+      category: Graine
+      size: 2
+      weight: 100
+      types: 0c00000004000000
+    statsBase:
+      pv: 5
+      atk: 5
+      def: 5
+      atkSpe: 6
+      defSpe: 6
+      speed: 5
+    attacks:
+    - label: Fouet Lianes
+      level: 5
+    - label: Armure
+      level: 5
+    - label: Trempette
+      level: 5
+    - label: Destruction
+      level: 10
+    - label: Mini-Queue
+      level: 5
